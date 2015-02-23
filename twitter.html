@@ -1,8 +1,10 @@
 <html>
   <head>
-    <link rel="stylesheet" href="twitter.css" type="text/css">
+    <link rel="stylesheet" href="topbar.css" type="text/css">
+    <link rel="stylesheet" href="sidebar.css" type="text/css">
   </head>
   <body>
+
     <header>
       <ul>
         <li class='left'><a><img id='home' src='img/twitter-home.svg'/></a><text class='text-button' id='text-home'>Home</text></li>
@@ -15,5 +17,31 @@
         <li><input class='right' type='text' placeholder='Search Twitter'></li>
       </ul>
     </header>
+
+      <side id='side'>
+
+          <ul id='user-container'>
+            <section id='first-half'></section>
+            <section id='profile-image'>
+              <img id='camera' src='img/camera.svg'/>
+            </section>
+            <section id='last-half'>
+                <a class='user' id='username'>Mishal Islam<a>
+                <br>
+                <a class='user' id='userhandle'>@mishal</a>
+                <a class='usertwitter' id='tweets'>TWEETS</a>
+                <a class='usertwitter' id='following'>FOLLOWING</a>
+                <a class='usertwitter' id='followers'>FOLLOWERS</a>
+                <br>
+                <li class='number' id='tweetnumber'>0</li>
+                <li class='number' id='followingnumber'>0</li>
+                <li class='number' id='followersnumber'>0</li>
+            </section>
+          </ul>
+
+      </side>
+
+      <main id='main'></main>
+
   </body>
 </html>
