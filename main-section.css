@@ -47,6 +47,103 @@
 }
 
 #write-tweet::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
-    color: #0084B4;
-    padding: 0px;
+  color: #0084B4;
+  padding: 0px;
+}
+
+#tfl {
+  height: 48px;
+  width: 48px;
+}
+
+#tweets-container {
+  width: 500px;
+  height: 642px;
+}
+
+.user-tweets {
+  height: 84px;
+  width: 475px;
+  display: block;
+  border-bottom: 1px solid #e1e8ed;
+  cursor: pointer;
+  padding: 9px 12px;
+}
+
+.user-image {
+  margin-top: 3px;
+  padding-right: 3px;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #292f33;
+  font-size: 14px;
+  position: relative;
+  display: inline;
+  bottom: 30px;
+}
+
+.user-handle {
+  font-size: 13px;
+  color: #8899a6;
+  position: relative;
+  display: inline;
+  bottom: 30px;
+}
+
+.dot {
+  position: relative;
+  display: inline;
+  bottom: 33px;
+  color: #8899a6;
+}
+
+.minutes {
+  font-size: 13px;
+  color: #8899a6;
+  position: relative;
+  display: inline;
+  bottom: 30px;
+}
+
+.tweet-content {
+  color: #292f33;
+  font-size: 14px;
+  position: relative;
+  width: 413px;
+  height: 36px;
+  padding: 0px;
+  margin: 0px;
+  bottom: 30px;
+  left: 55px;
+}
+
+.icon-row {
+  width: 220px;
+  height: 25px;
+  position: relative;
+  bottom: 30px;
+  left: 55px;
+}
+
+.icons {
+  height: 23px;
+  width: 23px;
+  padding-right: 20px;
+}
+
+#reply {
+  height: 20px;
+}
+
+#retweet {
+  width: 25px;
+}
+
+#more {
+  height: 15px;
+  width: 25px;
+  position: relative;
+  bottom: 3px;
 }
