@@ -9,10 +9,12 @@
 
     <header>
       <ul>
-        <li class='left'><a><img id='home' src='img/twitter-home.svg'/></a><text class='text-button' id='text-home'>Home</text></li>
-        <li class='left'><a><img id='bell' src='img/bell.png'/><text class='text-button' id='text-bell'>Notifications</text></a></li>
-        <li class='left'><a><img id='message' src='img/message.png'/><text class='text-button' id='text-messages'>Messages</text></a></li>
-        <li class='left'><a><img id='message' src='img/hash.svg'/><text class='text-button' id='text-discover'>Discover</text></a></li>
+        <section id='left-topbar'>
+          <li class='left'><a><img id='home' src='img/home.png'/></a><text class='text-button' id='text-home'>Home</text></li>
+          <li class='left'><a><img id='bell' src='img/bell.png'/><text class='text-button' id='text-bell'>Notifications</text></a></li>
+          <li class='left'><a><img id='message' src='img/message.png'/><text class='text-button' id='text-messages'>Messages</text></a></li>
+          <li class='left'><a><img id='message' src='img/hash.png'/><text class='text-button' id='text-discover'>Discover</text></a></li>
+        </section>
         <li class='middle'><a><img id='bird' src='img/twitter-bird.png'/></a></li>
         <li class='right'><a><img id='tweet' src='img/tweet.png'/></a></li>
         <li class='right'><a><img id='egg' src='img/egg.png'/></a></li>
@@ -213,7 +215,51 @@
         </ul>
       </main>
 
-      <side id='right-side'></side>
+      <side id='right-side'>
+        <section id='follow-container' class='right-container'>
+          <text id='follow-title'>Who to follow</text>
+          <text id='dot'>.</text>
+          <text id='change-text'>Refresh</text>
+          <text id='dot'>.</text>
+          <text id='change-text'>View all</text>
+          <ul id='who-to-follow-container'>
+            <li class='follow'>
+              <img class='user-image' src='img/wwf.png'/>
+              <section class='user-name'>
+                WWF UK
+              </section>
+              <section class='user-handle'>
+                @wwf_uk
+              </section>
+              <img class='delete' src='img/delete.png'/>
+              <img class='follow-button' src='img/follow.png'/>
+            </li>
+            <li class='follow'>
+              <img class='user-image' src='img/bafta.png'/>
+              <section class='user-name'>
+                BAFTA
+              </section>
+              <section class='user-handle'>
+                @BAFTA
+              </section>
+              <img class='delete bafta-delete' src='img/delete.png'/>
+              <img class='follow-button bafta-follow' src='img/follow.png'/>
+            </li>
+            <li class='follow'>
+              <img class='user-image' src='img/vice.png'/>
+              <section class='user-name'>
+                VICE UK
+              </section>
+              <section class='user-handle'>
+                @VICEUK
+              </section>
+              <img class='delete' src='img/delete.png'/>
+              <img class='follow-button' src='img/follow.png'/>
+            </li>
+          </ul>
+        </section>
+        <section id='footer-container' class='right-container'></section>
+      </side>
 
   </body>
 </html>
