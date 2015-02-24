@@ -1,7 +1,9 @@
 <html>
   <head>
     <link rel="stylesheet" href="topbar.css" type="text/css">
-    <link rel="stylesheet" href="sidebar.css" type="text/css">
+    <link rel="stylesheet" href="leftsidebar.css" type="text/css">
+    <link rel="stylesheet" href="main-section.css" type="text/css">
+    <link rel="stylesheet" href="rightsidebar.css" type="text/css">
   </head>
   <body>
 
@@ -14,11 +16,11 @@
         <li class='middle'><a><img id='bird' src='img/twitter-bird.png'/></a></li>
         <li class='right'><a><img id='tweet' src='img/tweet.png'/></a></li>
         <li class='right'><a><img id='egg' src='img/egg.png'/></a></li>
-        <li><input class='right' type='text' placeholder='Search Twitter'></li>
+        <li><input id='search-twitter' class='right' type='text' placeholder='Search Twitter'></li>
       </ul>
     </header>
 
-      <side id='side'>
+      <side id='left-side'>
 
           <ul class='side-container'>
             <section id='first-half'></section>
@@ -33,9 +35,9 @@
                 <a class='user-twitter' id='following'>FOLLOWING</a>
                 <a class='user-twitter' id='followers'>FOLLOWERS</a>
                 <br>
-                <li class='number' id='tweet-number'>0</li>
-                <li class='number' id='following-number'>0</li>
-                <li class='number' id='followers-number'>0</li>
+                <li class='number' id='tweet-number'>50</li>
+                <li class='number' id='following-number'>50</li>
+                <li class='number' id='followers-number'>50</li>
             </section>
           </ul>
 
@@ -58,7 +60,14 @@
           </ul>
       </side>
 
-      <main id='main'></main>
+      <main id='main'>
+        <section id='tweet-box'>
+          <a><img id='user-egg' src='img/egg.svg'/></a>
+          <input id='write-tweet' type='text' placeholder="What's happening?">
+        </section>
+      </main>
+
+      <side id='right-side'></side>
 
   </body>
 </html>

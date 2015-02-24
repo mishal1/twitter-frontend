@@ -1,0 +1,14 @@
+#right-side {
+  float: left;
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  height: 192;
+  width: 290px;
+  -webkit-box-shadow: 0px 2px 2px rgba(100, 100, 100, 0.49);
+  -moz-box-shadow: 0px 2px 2px rgba(100, 100, 100, 0.49);
+  box-shadow: 0px 2px 2px rgba(100, 100, 100, 0.49);
+  padding: 0;
+  font-family: "HelveticaNeue";
+}
